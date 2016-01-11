@@ -1,0 +1,57 @@
+{
+  "resources": [
+    {
+      "name": "resultados-testes-stress",
+      "path": "data/resultados-testes-stress.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 6194,
+      "schema": {
+        "fields": [
+          {
+            "name": "",
+            "type": "integer",
+            "description": ""
+          },
+          {
+            "name": "Bank",
+            "type": "string",
+            "description": "Nome do banco"
+          },
+          {
+            "name": "Country",
+            "type": "string",
+            "description": "País"
+          },
+          {
+            "name": "BANK.Code",
+            "type": "string",
+            "description": "Código do banco"
+          },
+          {
+            "name": "Tier 1 Capital",
+            "type": "number",
+            "description": "Capital Tier 1"
+          },
+          {
+            "name": "Test 1",
+            "type": "number",
+            "description": "Teste número 1"
+          },
+          {
+            "name": "Test 2",
+            "type": "number",
+            "description": "Teste número 2"
+          }
+        ]
+      }
+    }
+  ],
+  "name": "bancos-testes-stress",
+  "title": "Resultados dos testes financeiros",
+  "description": "Repositório do dataset dedicado aos resultados dos testes de stress",
+  "homepage": "",
+  "version": "0.1.0",
+  "license": "ODC-PDDL-1.0",
+  "repository": "https://github.com/gsilvapt/bancos-testes-stress.git"
+}
